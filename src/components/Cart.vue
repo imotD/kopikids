@@ -31,6 +31,7 @@
         </b-media>
       </b-list-group-item>
     </b-list-group>
+    <b-button v-if="cart.length" variant="success" block size="lg" class="mt-3">Checkout(Rp.{{ totalPrice }})</b-button>
   </div>
 </template>
 
@@ -47,6 +48,9 @@ export default {
   },
   computed: {
     ...mapGetters(["cart"]),
+    totalPrice() {
+      return this.cart.reduce((a, b) => a + b.qty * b.price, 0);
+    },
   },
   methods: {
     ...mapActions(["addQty", "reduceQty", "removeItem"]),
