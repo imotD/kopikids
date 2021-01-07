@@ -1,24 +1,30 @@
 <template>
   <div>
     <b-list-group>
-      <b-list-group-item>
-        <b-button-close></b-button-close>
+      <b-list-group-item v-for="item in cart" :key="item.id">
+        <b-button-close @click="removeItem(item.id)"></b-button-close>
         <b-media>
           <template #aside>
-            <b-img
-              src="https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9eddba54ba18d67f61cc4c1639cb8516/l/v/lvf002_1_wid_1200_hei_1200.jpg"
-              width="64"
-              alt="placeholder"
-            ></b-img>
+            <b-img :src="item.imgUrl" width="64" :alt="item.title"></b-img>
           </template>
 
-          <h5 class="mt-0">Judul</h5>
+          <h5 class="mt-0">{{ item.title }}</h5>
           <p class="mb-0">
-            <b-button pill size="sm" class="btn-qty" variant="primary"
+            <b-button
+              @click="reduceQty(item.id)"
+              pill
+              size="sm"
+              class="btn-qty"
+              variant="primary"
               >-</b-button
             >
-            X 1
-            <b-button pill size="sm" class="btn-qty" variant="primary"
+            X {{ item.qty }}
+            <b-button
+              @click="addQty(item.id)"
+              pill
+              size="sm"
+              class="btn-qty"
+              variant="primary"
               >+</b-button
             >
           </p>
@@ -29,7 +35,23 @@
 </template>
 
 <script>
-export default {};
+import { mapActions, mapGetters } from "vuex";
+
+export default {
+  name: "ProductList",
+  components: {},
+  data() {
+    return {
+      // products,
+    };
+  },
+  computed: {
+    ...mapGetters(["cart"]),
+  },
+  methods: {
+    ...mapActions(["addQty", "reduceQty", "removeItem"]),
+  },
+};
 </script>
 
 <style lang="scss" scoped>

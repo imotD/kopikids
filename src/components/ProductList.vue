@@ -13,7 +13,9 @@
         >
           <b-card-text> Rp.{{ item.price }} </b-card-text>
 
-          <b-button href="#" variant="primary">Add to Cart</b-button>
+          <b-button @click="addToCart(item)" variant="primary"
+            >Add to Cart</b-button
+          >
         </b-card>
       </b-col>
     </b-row>
@@ -38,7 +40,7 @@ export default {
     ...mapGetters(["products"]),
   },
   methods: {
-    ...mapActions(["getProducts"]),
+    ...mapActions(["getProducts", "addToCart"]),
   },
 };
 </script>
