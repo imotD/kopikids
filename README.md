@@ -1,24 +1,6 @@
-# kopikids
+# Project kopikids
 
-## Project setup
-```
-npm install
-```
+## Learn Vue and Vuex
+learn from  `Ruang Dev` on Youtube [Link](https://www.youtube.com/watch?v=jFltCbnArr8&list=PL9At9z2rvOC84xzYWC7Yn7cn4KzUN1nSA&index=13)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Thanks!
