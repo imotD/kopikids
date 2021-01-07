@@ -21,15 +21,24 @@
 </template>
 
 <script>
-import products from "../db/product.json";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   name: "ProductList",
   components: {},
   data() {
     return {
-      products,
+      // products,
     };
+  },
+  mounted() {
+    this.getProducts();
+  },
+  computed: {
+    ...mapGetters(["products"]),
+  },
+  methods: {
+    ...mapActions(["getProducts"]),
   },
 };
 </script>

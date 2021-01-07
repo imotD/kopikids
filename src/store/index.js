@@ -1,15 +1,27 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import products from "../db/product.json";
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    products: [],
+    cart: []
   },
-  mutations: {
+  getters: {
+    products: (state) => state.products,
+    cart: (state) => state.cart
   },
   actions: {
+    getProducts({commit}){
+      commit("getProductData")
+    }
   },
-  modules: {
-  }
+  mutations: {
+    getProductData(state){
+      state.products = products;
+    }
+  },
+  modules: {}
 })
