@@ -1,5 +1,12 @@
 <template>
   <div>
+    <b-alert v-if="!cart.length" variant="info" show>
+      No Product in cart!
+    </b-alert>
+    <b-alert v-if="orderLoading" variant="success" show>
+      Order Successfully placed!
+      <b-button-close @click="() => (orderLoading = false)"></b-button-close>
+    </b-alert>
     <b-list-group>
       <b-list-group-item v-for="item in cart" :key="item.id">
         <b-button-close @click="removeItem(item.id)"></b-button-close>
@@ -31,7 +38,18 @@
         </b-media>
       </b-list-group-item>
     </b-list-group>
-    <b-button v-if="cart.length" variant="success" block size="lg" class="mt-3">Checkout(Rp.{{ totalPrice }})</b-button>
+    <b-button
+      v-if="cart.length"
+      :disabled="isLoading"
+      @click="placeOrder()"
+      variant="success"
+      block
+      size="lg"
+      class="mt-3"
+    >
+      <span v-if="!isLoading"> Checkout(Rp.{{ totalPrice }}) </span>
+      <b-spinner v-else label="Loading..."></b-spinner>
+    </b-button>
   </div>
 </template>
 
@@ -43,7 +61,8 @@ export default {
   components: {},
   data() {
     return {
-      // products,
+      isLoading: false,
+      orderLoading: false,
     };
   },
   computed: {
@@ -53,7 +72,15 @@ export default {
     },
   },
   methods: {
-    ...mapActions(["addQty", "reduceQty", "removeItem"]),
+    ...mapActions(["addQty", "reduceQty", "removeItem", "emptyCart"]),
+    placeOrder() {
+      this.isLoading = true;
+      setTimeout(() => {
+        this.orderLoading = true;
+        this.isLoading = false;
+        this.emptyCart();
+      }, 1000);
+    },
   },
 };
 </script>
