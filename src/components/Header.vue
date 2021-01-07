@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="outline" class="bg-light">
+    <b-navbar toggleable="lg" variant="outline" class="bg-light mb-3">
       <b-navbar-brand href="#">Kopikids</b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

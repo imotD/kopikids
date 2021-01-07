@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Dell XPS 13 9380",
-    "price": 1080,
-    "imgUrl": "https://m.media-amazon.com/images/I/719tCHXNiXL._AC_UL320_.jpg"
+    "title": "DADDY ZEBRA T-SHIRT",
+    "price": 99000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/v/lve604_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 2,
-    "title": "Apple 13 inch MacBook Air",
-    "price": 799,
-    "imgUrl": "https://m.media-amazon.com/images/I/51-oeeCf1zL._AC_UY218_.jpg"
+    "title": "ICE-CREAM VAN T-SHIRT",
+    "price": 99000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/v/lvg001_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 3,
-    "title": "Lenovo IdeaPad 3",
-    "price": 450,
-    "imgUrl": "https://m.media-amazon.com/images/I/71MFkYd8TTL._AC_UY218_.jpg"
+    "title": "SPOT AND STRIPE VEST T-SHIRTS - 2 PACK",
+    "price": 250000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/v/lvc143_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 4,
-    "title": "Acer Spin 3 Convertible Laptop",
-    "price": 176,
-    "imgUrl": "https://m.media-amazon.com/images/I/81H9y1pPW6L._AC_UY218_.jpg"
+    "title": "RED BOAT T-SHIRT",
+    "price": 70000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9eddba54ba18d67f61cc4c1639cb8516/l/v/lvg002_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 5,
-    "title": "CHUWI HeroBook Pro 14.1 inch",
-    "price": 269,
-    "imgUrl": "https://m.media-amazon.com/images/I/71jDooDQHpL._AC_UY218_.jpg"
+    "title": "PINK AND YELLOW VEST T-SHIRTS - 2 PACK",
+    "price": 150000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9eddba54ba18d67f61cc4c1639cb8516/l/v/lvf002_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 6,
-    "title": "Lenovo Ideapad L340",
-    "price": 868,
-    "imgUrl": "https://m.media-amazon.com/images/I/81XvT+ahkoL._AC_UY218_.jpg"
+    "title": "REVERSE-STRIPE CAMPER T-SHIRT",
+    "price": 130000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9eddba54ba18d67f61cc4c1639cb8516/l/v/lvg035_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 7,
-    "title": "HP 2020 Newest 17.3 Inch",
-    "price": 699,
-    "imgUrl": "https://m.media-amazon.com/images/I/61b7mU3bKbL._AC_UY218_.jpg"
+    "title": "SEA CREATURE T-SHIRT",
+    "price": 130000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9eddba54ba18d67f61cc4c1639cb8516/l/v/lvg039_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 8,
-    "title": "ASUS ROG Zephyrus Duo",
-    "price": 3699,
-    "imgUrl": "https://m.media-amazon.com/images/I/81e1pXhTE2L._AC_UY218_.jpg"
+    "title": "SHARK LIFT-THE-FLAP T-SHIRT",
+    "price": 150000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/v/lvg051_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 9,
-    "title": "Acer Aspire 5 Slim Laptop",
-    "price": 579,
-    "imgUrl": "https://m.media-amazon.com/images/I/71sesDsw95L._AC_UY218_.jpg"
+    "title": "GREEN HI DINOSAUR T-SHIRT",
+    "price": 200000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/v/lvb276_1_wid_1200_hei_1200.jpg"
   },
   {
     "id": 10,
-    "title": "Alienware New M15",
-    "price": 1799,
-    "imgUrl": "https://m.media-amazon.com/images/I/7159o5Y0GIL._AC_UL320_.jpg"
+    "title": "YELLOW THINK HAPPY HEDGEHOG T-SHIRT",
+    "price": 200000,
+    "imgUrl": "https://mothercare.cdn.imgeng.in/media/catalog/product/cache/9bf1abbc9ed19ac1e29a2ccb9d5d9a60/l/t/ltc566_1_wid_1200_hei_1200.jpg"
   }
 ]
